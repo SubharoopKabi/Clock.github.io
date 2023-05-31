@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+#clock{
+    position: relative;
+    background-color: red;
+    height: 30vw;
+    width: 30vw;
+    background: url(clock2.gif) no-repeat;
+    background-size: 100%;
+    margin:auto;
+    
+}
+#hour,#min,#sec{
+    position:absolute;
+    background:white;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1%;
+    left: 49%;
+    top: 35.25%;
+    height: 14%;
+    
+}
+#min{
+
+    width: 1%;
+    left: 49%;
+    top: 21%;
+    height: 28%;
+
+}   
+#sec{
+
+    left: 49%;
+    width: 0.4%;
+    top: 30%;
+    height: 19.5%;
+    opacity: 0.8;
+}
